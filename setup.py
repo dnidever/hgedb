@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+1;95;0c
 from distutils.core import setup
 
 setup(name='hgedb',
@@ -15,6 +15,6 @@ setup(name='hgedb',
       #         'bin/ukidss_measure','bin/ukidss_calibrate',
       #         'bin/ukidss_calibrate_healpix','bin/ukidss_combine'],
       #py_modules=['nsc_instcal',''],
-      requires=['numpy','astropy','scipy'],
+      requires=['numpy','astropy','scipy','requests'],
       #include_package_data=True
 )
